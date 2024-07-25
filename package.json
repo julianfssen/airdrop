@@ -9,7 +9,8 @@
     "keygen": "ts-node ./keygen.ts",
     "airdrop": "ts-node ./airdrop.ts",
     "transfer": "ts-node ./transfer.ts",
-    "enroll": "ts-node ./enroll.ts"
+    "enroll": "ts-node ./enroll.ts",
+    "wallet-to-bs58": "ts-node ./cli/byte-array-to-bs58.ts"
   },
   "dependencies": {
     "@solana/web3.js": "^1.95.1",
