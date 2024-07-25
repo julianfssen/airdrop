@@ -1,1 +1,1 @@
-export const DEVNET_RPC_URL = "https://api.devnet.solana.com";
+export const DEVNET_RPC_URL = 'https://api.devnet.solana.com'
