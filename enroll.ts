@@ -12,7 +12,7 @@ try {
 
   const github = Buffer.from(GITHUB_USERNAME, "utf8");
   const provider = new AnchorProvider(connection, new Wallet(keypair), { commitment: "confirmed" });
-  const program : Program<WbaPrereq> = new Program(IDL, provider);
+  const program: Program<WbaPrereq> = new Program(IDL, provider);
 
   // Create the PDA for our enrollment account
   const enrollment_seeds = [Buffer.from("prereq"), keypair.publicKey.toBuffer()];
