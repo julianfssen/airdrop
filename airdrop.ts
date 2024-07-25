@@ -1,7 +1,6 @@
 import { Connection, Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import wallet from "./dev-wallet.json";
-
-const DEVNET_RPC_URL = "https://api.devnet.solana.com";
+import { DEVNET_RPC_URL } from "./constants";
 
 try {
   const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
