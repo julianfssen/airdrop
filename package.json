@@ -10,7 +10,8 @@
     "airdrop": "ts-node ./airdrop.ts",
     "transfer": "ts-node ./transfer.ts",
     "enroll": "ts-node ./enroll.ts",
-    "wallet-to-bs58": "ts-node ./cli/byte-array-to-bs58.ts"
+    "wallet-to-bs58": "ts-node ./cli/byte-array-to-bs58.ts",
+    "bs58-to-wallet": "ts-node ./cli/bs58-to-byte-array.ts"
   },
   "dependencies": {
     "@solana/web3.js": "^1.95.1",
